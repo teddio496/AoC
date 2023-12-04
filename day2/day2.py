@@ -21,10 +21,8 @@ for game in f:
             if nums[i][-2:] == "\n":
                 nums[i] = nums[i][:-2]
         temp += nums
-    
-    print(temp)
+
     if check_validity(temp):
         result += int(game_num)
         print(check_validity(temp))
 print(result)
-

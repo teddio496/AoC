@@ -28,6 +28,4 @@ for game in f:
 
     result += max_blue*max_green*max_red
 
-
 print(result)
-
